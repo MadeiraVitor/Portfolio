@@ -1,0 +1,174 @@
+/* ===== CABEÇALHO ===== */
+
+@media(max-width: 990px) {
+    .cabecalho {
+        padding: 24px;
+        margin-bottom: 0;
+    }
+
+    .cabecalho .menu-hamburguer {
+        display: block;
+    }
+
+    .cabecalho .hamburguer {
+        display: block;
+    }
+
+    .cabecalho nav input:checked ~ .menu {
+        display: block;
+    }
+
+    .cabecalho nav {
+        position: absolute;
+        top: 45px;
+        right: 35px;
+        z-index: 1;
+        background-color: #0C0C0C;
+    }
+
+    .cabecalho nav .menu {
+        display: none;
+        background-color: #212121;
+        padding: 20px;
+    }
+
+    .cabecalho .menu li {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .cabecalho nav li a {
+        color: #F9F9F9;
+        text-align: center;
+        padding: 20px;
+        display: block;
+    }
+}
+
+/* ===== APRESENTAÇÃO ===== */
+
+@media(max-width: 990px){
+    .apresentacao {
+        padding: 24px;
+        margin-bottom: 0;
+    }
+}
+
+@media(max-width: 768px){
+    .apresentacao .imagem-apresentacao {
+        display: none;
+    }
+
+    .apresentacao .texto-apresentacao {
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+/* ===== SOBRE ===== */
+
+@media(max-width: 1530px){
+    .sobre {
+        padding: 24px;
+        margin-bottom: 0;
+    }
+}
+
+@media(max-width: 1270px){
+    .info-sobre {
+        flex-direction: column;
+    }
+
+    .info-sobre .imagem-sobre img {
+        margin-right: 0;
+    }
+
+    .conteudo-sobre {
+        margin-top: 20px;
+    }
+
+    .conteudo-sobre .btn-curriculo  {
+        margin: 0 auto;
+        width: 120px;
+        margin-top: 20px;
+    }
+}
+
+/* ===== HABILIDADES ===== */
+
+@media(max-width: 990px){
+    .habilidades {
+        padding: 24px;
+        margin-bottom: 0;
+    }
+}
+
+@media(max-width: 670px){
+    .habilidades h2 {
+        margin-bottom: 10px;
+    }
+    
+    .lista-habilidades li {
+        margin: 3px;
+    }
+}
+
+/* ===== PROJETOS ===== */
+
+@media(max-width: 1400px){
+    .projetos {
+        padding: 24px;
+        margin-bottom: 0;
+    }
+}
+
+@media(max-width: 1150px){
+    .projetos .container-projetos {
+        grid-template: repeat(3, auto) / repeat(2, auto);
+        justify-content: space-evenly;
+    }
+}
+
+@media(max-width: 800px){
+    .projetos .container-projetos {
+        grid-template: repeat(6, auto) / repeat(1, auto);
+    }
+}
+
+@media(max-width: 400px){
+    .projetos .container-projetos a {
+        width: 100%;
+    }
+
+    .container-projetos .moldura-projetos img {
+        width: 100%;
+    }
+}
+
+/* ===== CONTATO ===== */
+
+@media(max-width: 660px){
+    .contato {
+        padding: 24px;
+        margin-bottom: 0;
+    }
+}
+
+@media(max-width: 386px){
+    .lista-contatos .container-contato {
+        margin-top: 10px;
+        width: 120px;
+    }
+
+    .contato h2 {
+        margin-bottom: 20px;
+    }
+}
+
+/* ===== FOOTER ===== */
+
+@media(max-width: 576px){
+    .rodape {
+        padding: 24px;
+    }
+}

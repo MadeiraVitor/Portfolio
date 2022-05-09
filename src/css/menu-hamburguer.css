@@ -1,0 +1,57 @@
+.cabecalho nav label {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.cabecalho .hamburguer {
+    position: relative;
+    display: none;
+    background-color: white;
+    width: 30px;
+    height: 2px;
+    top: 20px;
+    left: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.cabecalho .hamburguer:before,
+.cabecalho .hamburguer:after {
+    background-color: white;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 0.2s ease-in-out;
+}
+
+.cabecalho .hamburguer:before {
+    top: -10px;
+}
+
+.cabecalho .hamburguer:after {
+    bottom: -10px;
+    width: 15px;
+    right: 0;
+}
+
+.cabecalho input {
+    display: none;
+}
+
+.cabecalho input:checked ~ label .hamburguer {
+    transform: rotate(45deg);
+}
+
+.cabecalho input:checked ~ label .hamburguer:before {
+    transform: rotate(90deg);
+    top: 0;
+}
+
+.cabecalho input:checked ~ label .hamburguer:after {
+    /* transform: rotate(90deg);
+    bottom: 0;
+    width: 15px; */
+    display: none;
+}

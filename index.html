@@ -1,12 +1,201 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio - Vitor Madeira</title>
+
+    <link rel="shortcut icon" href="src/imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/estilo.css">
+    <link rel="stylesheet" href="src/css/menu-hamburguer.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Portfólio em construção...</h1>
+    <header class="cabecalho">
+        <div class="logo">
+            <a href="index.html">
+                <img src="src/imagens/Logo2.png" alt="logo">
+            </a>
+        </div>
+
+        <nav>
+            <input type="checkbox" id="menu-hamburguer">
+
+            <label for="menu-hamburguer">
+                <div class="menu-hamburguer">
+                    <span class="hamburguer"></span>
+                </div>
+            </label>
+
+            <ul class="menu">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="apresentacao">
+            <div class="texto-apresentacao">
+                <p>Olá, sou o</p>
+                <h1>Vitor <span>Madeira</span></h1>
+                <p class="cargo">Desenvolvedor Front-End</p>
+
+                <div class="btns">
+                    <a href="https://www.linkedin.com/in/vitor-madeira/" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/MadeiraVitor" target="_blank">GitHub</a>
+                </div>
+            </div>
+
+            <div class="imagem-apresentacao">
+                <img src="src/imagens/3964906-removebg-preview.png" alt="homem com notebook">
+            </div>
+        </section>
+
+        <section class="sobre" id="sobre">
+            <h2>Sobre</h2>
+            <div class="info-sobre">
+                <div class="imagem-sobre">
+                    <img src="src/imagens/Vitor.jpg" alt="minha foto">
+                </div>
+
+                <div class="conteudo-sobre">
+                    <p>
+                        Trabalho atualmente como motorista de ônibus e estou estudando para entrar na área de
+                        tecnologia,que é uma área que eu gosto muito e quero futuramente trabalhar. Sempre fui muito
+                        esperto em questão a tecnologia e quero sempre buscar aprender algo novo.
+                        <br>
+                        <br>
+                        Estou estudando Desenvolvimento Front-End, aprendendo sobre HTML, CSS, JavaScript e ReactJS.
+                        <br>
+                        <br>
+                        Tenho um objetivo na área de desenvolvimento que é conseguir uma oportunidade para aprimorar
+                        ainda mais minhas habilidades e contribuir dentro de uma equipe.
+                        Aprendo as coisas muito rápido, sou persistente, se tenho algum problema vou até o final para
+                        conseguir resolver. Sou muito esforçado em querer aprender e estou sempre antenado sobre novas
+                        tecnologias.
+                    </p>
+
+                    <div class="btn-curriculo">
+                        <a href="src/arquivos/Currículo - Vitor Madeira.pdf" target="_blank">Currículo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="habilidades" id="habilidades">
+            <h2>Habilidades</h2>
+            <ul class="lista-habilidades">
+                <li><img src="src/imagens/html.png" alt="logo html"></li>
+                <li><img src="src/imagens/css.png" alt="logo css"></li>
+                <li><img src="src/imagens/js.png" alt="logo js"></li>
+                <li><img src="src/imagens/react.png" alt="logo react"></li>
+            </ul>
+        </section>
+
+        <section class="projetos" id="projetos">
+            <h2>Projetos</h2>
+
+            <div class="container-projetos">
+                <a href="#">
+                    <div class="moldura-projetos">
+                        <img src="https://via.placeholder.com/300x130" alt="">
+                        <h3>Título do projeto</h3>
+                        <p>Tecnologias: HTML, CSS e JS.</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="moldura-projetos">
+                        <img src="https://via.placeholder.com/300x130" alt="">
+                        <h3>Título do projeto</h3>
+                        <p>Tecnologias: HTML, CSS e JS.</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="moldura-projetos">
+                        <img src="https://via.placeholder.com/300x130" alt="">
+                        <h3>Título do projeto</h3>
+                        <p>Tecnologias: HTML, CSS e JS.</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="moldura-projetos">
+                        <img src="https://via.placeholder.com/300x130" alt="">
+                        <h3>Título do projeto</h3>
+                        <p>Tecnologias: HTML, CSS e JS.</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="moldura-projetos">
+                        <img src="https://via.placeholder.com/300x130" alt="">
+                        <h3>Título do projeto</h3>
+                        <p>Tecnologias: HTML, CSS e JS.</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="moldura-projetos">
+                        <img src="https://via.placeholder.com/300x130" alt="">
+                        <h3>Título do projeto</h3>
+                        <p>Tecnologias: HTML, CSS e JS.</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="contato" id="contato">
+            <h2>Contato</h2>
+            <ul class="lista-contatos">
+                <div class="container-contato">
+                    <a href="https:wa.me/5548998411187" target="_blank">
+                        <li>
+                            <img src="src/imagens/whatsapp.png" alt="logo whatsapp">
+                        </li>
+                    </a>
+                    <p>Whatsapp</p>
+                </div>
+                <div class="container-contato">
+                    <a href="mailto: vitorsoutom@hotmail.com" target="_blank">
+                        <li>
+                            <img src="src/imagens/email.png" alt="logo email">
+                        </li>
+                    </a>
+                    <p>Email</p>
+                </div>
+
+                <div class="container-contato">
+                    <a href="https://www.linkedin.com/in/vitor-madeira/" target="_blank">
+                        <li>
+                            <img src="src/imagens/linkedin.png" alt="logo linkedin">
+                        </li>
+                    </a>
+                    <p>LinkedIn</p>
+                </div>
+
+                <div class="container-contato">
+                    <a href="https://github.com/MadeiraVitor" target="_blank">
+                        <li>
+                            <img src="src/imagens/github.png" alt="logo github">
+                        </li>
+                    </a>
+                    <p>GitHub</p>
+                </div>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>Portfólio Profissional <br> Desenvolvido por <span>Vitor Madeira</span></p>
+    </footer>
 </body>
+
 </html>
