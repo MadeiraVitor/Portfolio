@@ -154,6 +154,17 @@
     }
 }
 
+@media(max-width: 426px){
+    .lista-contatos .container-contato {
+        margin-top: 10px;
+        width: 150px;
+    }
+
+    .contato h2 {
+        margin-bottom: 20px;
+    }
+}
+
 @media(max-width: 386px){
     .lista-contatos .container-contato {
         margin-top: 10px;
