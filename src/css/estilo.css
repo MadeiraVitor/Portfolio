@@ -182,7 +182,7 @@ body {
 }
 
 .lista-habilidades li:hover {
-    opacity: 0.3;
+    transform: scale(1.07);
 }
 
 .projetos {
@@ -209,11 +209,16 @@ body {
     background-color: #212121;
     padding: 20px 25px;
     position: relative;
+    transition: 0.3s ease-in-out;
+}
+
+.moldura-projetos img {
+    width: 300px;
+    height: 130px;
 }
 
 .moldura-projetos:hover {
-    top: -5px;
-    transition: 0.3s ease-in-out;
+    transform: scale(1.07);
 }
 
 .moldura-projetos h3 {
@@ -270,14 +275,13 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #212121;
-    transition: 0.3s;
+    transition: 0.3s ease-in-out;
     border-radius: 50%;
     position: relative;
 }
 
 .lista-contatos li:hover {
-    top: -5px;
-    transition: 0.3s ease-in-out;
+    transform: scale(1.20);
 }
 
 .rodape {
